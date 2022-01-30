@@ -25,7 +25,12 @@
                 <div class="container-fluid px-4 px-lg-0">
                     <img src="./assets/img/JsWorldLogo_preview_rev_1.png" class="rounded mx-auto d-block" alt="...">
                     <h1 class="fst-italic lh-1 mb-4">JavaScript World has just launched!</h1>
-                    <p class="mb-5">Change how you perceive today's world and its infrastructure with just one read!</p>
+                    <p class="mb-5">Change how you perceive today's world and its infrastructure with just one read!
+
+                    <br>
+                    Coming soon...
+                    </p>
+                    
                     <!-- * * * * * * * * * * * * * * *-->
                     <!-- * * SB Forms Contact Form * *-->
                     <!-- * * * * * * * * * * * * * * *-->
@@ -33,12 +38,26 @@
                     <!-- To make this form functional, sign up at-->
                     <!-- https://startbootstrap.com/solution/contact-forms-->
                     <!-- to get an API token!-->
-                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <form id="contactForm" data-sb-form-api-token="API_TOKEN" >
                         <!-- Email address input-->
+                        
                         <div class="row input-group-newsletter">
-                            <div class="col"><input class="form-control" id="email" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                            <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
+                            
+                            <div class="col"><input class="form-control" id="email" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" />
+                            
+                            </div>
+                            
+                            <div class="col-auto" >
+                                
+                                <button   class="btn btn-primary disabled" id="submitButton" type="submit" >Notify Me!</button>
+
+    
+                            </div>
+                       
+                        
                         </div>
+                   
+                        
                         <div class="invalid-feedback mt-2" data-sb-feedback="email:required">An email is required.</div>
                         <div class="invalid-feedback mt-2" data-sb-feedback="email:email">Email is not valid.</div>
                         <!-- Submit success message-->
@@ -48,6 +67,9 @@
                         <div class="d-none" id="submitSuccessMessage">
                             <div class="text-center mb-3 mt-2">
                                 <div class="fw-bolder">You won't regret it!</div>
+                                <a href="./assets/txt/JsWorld.txt" download>
+                                    <button   class="btn btn-primary disabled" id="submitButton" type="submit" >Get your free preview here!</button>
+                                </a>
                             </div>
                         </div>
                         <!-- Submit error message-->
